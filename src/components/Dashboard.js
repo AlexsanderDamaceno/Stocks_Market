@@ -2,6 +2,7 @@ import React from "react";
 import Card from "./Card";
 import {Company_profile} from "../const_data/template_stock"
 import Search from "./Search";
+import Details from "./Details";
 
 const Dashboard = () => {
 
@@ -25,7 +26,7 @@ const Dashboard = () => {
         </div>
 
         <div className="row-span-2 xl:row-span-3">
-           <Card>  Details </Card>
+           <Details details={Company_profile} />
         </div>
 
 
